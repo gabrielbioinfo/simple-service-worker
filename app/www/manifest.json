@@ -19,5 +19,5 @@
       }
     ],
     "start_url": "index.html?launcher=true",
-    "content_security_policy": "style-src 'self' script-src 'self' "
+    "content_security_policy": "script-src 'self' https://site.ava.comeex.com.br/; object-src 'self';style-src 'self';"
   }
