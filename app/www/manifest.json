@@ -22,5 +22,5 @@
     "theme_color": "#ccc",
     "start_url": "index.html?launcher=true",
     "orientation": "portrait-primary",
-    "content_security_policy": "default-src *; style-src 'self' http://* 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'"
+    "content_security_policy": "manifest-src: https://site.ava.comeex.com.br/ ;default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'"
   }
