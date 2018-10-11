@@ -19,5 +19,5 @@
       }
     ],
     "start_url": "index.html?launcher=true",
-    "content_security_policy": "style-src 'self' 'unsafe-eval' 'unsafe-inline';"
+    "content_security_policy": "style-src 'unsafe-inline';"
   }
