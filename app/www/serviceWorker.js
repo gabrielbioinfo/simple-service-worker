@@ -1,18 +1,8 @@
-
-const register = ()=>{
-    return new Promise((resolve, reject)=>{
-        if(!('serviceWorker' in navigator)){
-            reject(new error(`this browser dosen't supports service workers`));
-        }
-        resolve(navigator.serviceWorker.register('/serviceWorker.js'));
-    });
-};
-
-window.addEventListener('load', ()=>{
-    register()
+if('serviceWorker' in navigator){
+    resolve(navigator.serviceWorker.register('/serviceWorker.js'))
     .then(()=>{})
     .catch((err)=>{
         console.log('service worker error: ', err);
     });
-});
+}
 
