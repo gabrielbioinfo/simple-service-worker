@@ -22,6 +22,6 @@
     "theme_color": "#ccc",
     "start_url": "index.html?launcher=true",
     "orientation": "portrait-primary",
-    "content_security_policy": "manifest-src 'self';"
+    "content_security_policy": "manifest-src 'self';default-src 'self'"
 
   }
