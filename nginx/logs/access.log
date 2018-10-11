@@ -1,0 +1,3 @@
+192.168.112.1 - - [11/Oct/2018:16:13:37 +0000] "GET / HTTP/1.1" 200 188 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+192.168.112.1 - - [11/Oct/2018:16:13:37 +0000] "GET /serviceWorker.js HTTP/1.1" 200 461 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+192.168.112.1 - - [11/Oct/2018:16:13:37 +0000] "GET /serviceWorker.js HTTP/1.1" 200 461 "http://localhost/serviceWorker.js" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
