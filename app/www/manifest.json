@@ -21,5 +21,6 @@
     "background_color": "#000",
     "theme_color": "#ccc",
     "start_url": "index.html?launcher=true",
+    "orientation": "portrait-primary",
     "content_security_policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval'; script-src 'unsafe-inline' 'unsafe-eval' 'self'; object-src 'self' 'unsafe-inline' 'unsafe-eval'"
   }
