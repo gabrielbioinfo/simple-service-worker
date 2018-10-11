@@ -1,8 +1,22 @@
 {
-    "short_name": "Simple Nginx PHP Mysql",
-    "name": "Moodle",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff",
-    "content_security_policy": "script-src 'self' 'unsafe-inline'; object-src 'self'"
-}
+    "short_name": "SimpleApp",
+    "name": "Simple app para demonstração",
+    "icons": [
+      {
+        "src": "icons/launcher-icon-1x.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "icons/launcher-icon-2x.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "icons/launcher-icon-4x.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "index.html?launcher=true"
+  }
