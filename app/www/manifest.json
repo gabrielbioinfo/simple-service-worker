@@ -18,9 +18,9 @@
         "sizes": "192x192"
       }
     ],
+    "display": "standalone",
     "background_color": "#000",
     "theme_color": "#ccc",
-    "start_url": "index.html?launcher=true",
-    "orientation": "portrait-primary",
-    "content_security_policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://site.ava.comeex.com.br; object-src 'none'"
-  }
+    "start_url": "/",
+    "orientation": "portrait-primary"
+}
